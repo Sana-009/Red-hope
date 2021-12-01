@@ -1,0 +1,185 @@
+
+
+
+body {
+    font-family: montserrat;
+     background-color: rgb(245, 233, 233);
+     
+    }
+    .logo{  
+        position: absolute;
+        left: 4%;
+        top: 5px;
+        z-index: 1;
+      height: 70px;
+      width: 70px;
+    }
+    .navbar{
+        background-color:rgb(247, 19, 68);
+        display: flex;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        overflow: hidden;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+        height: 80px;
+        width: 100%;
+        bottom: 0;
+       
+        border-radius: 15px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .bgr{ 
+    
+      background-image: url("volunteers-woman-man-donating-blood_262189-25.jpg");
+        opacity: 0.9;
+          /* Set a specific height */
+        height: 900px;
+        width: 1000px;
+    object-fit: cover;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+     
+        animation-name: example;
+        animation-duration: 2s;  
+        animation-fill-mode: forwards;
+       
+    }
+    
+    @keyframes example
+    {
+      from {left: 0px;}
+      to {left: 50px;}
+      }
+      @keyframes examp2
+    {
+      from {left: 5px;}
+      to {left: 50px;}
+      }
+    .navbar a{
+            color: white;
+        margin-inline: 1%;
+        text-decoration: none;
+    }
+    .navbar h3:hover{
+        box-shadow: 0 0 10px #fff;
+        border-radius: 8px;
+        enable-background: 0px;
+        height:25px;
+        transition: 50ms;
+        margin-top: 19px;
+        margin-right: 10px;
+    }
+    .brief{
+        margin-top: 5%;
+       margin-left: 10%;
+       margin-right: 10%;
+       
+        display: flex;
+        
+    }
+    .navh3{
+    font-size: 25px;
+    }
+    
+    .a1 a:link{text-decoration: none;
+        color:rgb(11, 16, 19); }
+     .a1 a:visited{
+         text-decoration: none;
+         color: rgb(13, 18, 20);
+     }
+     .a1
+     { font-size: 30px;
+       display: flex;
+     float: left;
+     margin-top: 3%;
+     
+     margin-right: 15%;
+     border: none;
+     border-radius: 25px;
+     margin-bottom: 3%;
+     position: relative;
+        animation-name: examp2;
+        animation-duration: 2s;  
+        animation-fill-mode: forwards;
+     }
+     .a1 a:hover{
+         -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+         box-shadow: 0 0 10px black;
+         
+         transition: 20ms;
+     }
+     .ima{
+         float:left;
+         height: 250px;
+         width: 300px;
+         object-fit: cover;
+         margin-right: 50px;
+         margin-top: 20px;
+         }/* Styling of articles ends*/
+     /* styling of query*/
+         .ask{font-size: 20px;
+             color: rgb(17, 17, 17);
+         margin-top: 30px;
+     
+         padding-bottom: 30px;
+        margin-left: 500px;
+     }
+    @media screen and (max-width: 600px) {
+        /*Navigation bar starts*/   
+        .navbar a {
+           
+             display:inline-block;
+             text-align: left;
+           
+             margin-right: 0%;
+             
+           }
+           .navh3{margin-left:auto;}
+           /*navigation bar ends*/
+         
+       
+       }
+           
+       .footer
+       {
+        padding: 30px;
+        margin-inline: 20px;
+        
+        background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
+        display:inline-block;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 100px;
+        height: 80px;
+        width: 80%;
+        border-radius: 15px;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+    }
+    .fling-minislide {overflow:hidden; position:relative; }
+    .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: 80%;}
+    
+    @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+    .fling-minislide { margin-left: 120px; margin-right: 0%;width:80%; height:80%; padding-bottom: 50%;overflow:hidden; position:relative; }
+    .fling-minislide img:nth-child(4){animation-delay:0s;}
+    .fling-minislide img:nth-child(3){animation-delay:5s;}
+    .fling-minislide img:nth-child(2){animation-delay:10s;}
+    .fling-minislide img:nth-child(1){animation-delay:15s;}
+     .Sponsorbutton{
+       margin-left: 40%;
+        background-color: #660000;
+        color: white;
+        font-size: 100;
+        border:2px solid black;
+        border-radius: 3px;
+        box-shadow: 0 0 1px 1px; 
+        width: 40%;
+        height: 10%;
+        text-align: center;
+     }

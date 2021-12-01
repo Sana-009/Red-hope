@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<title>
+			Donor Form
+		</title>
+		<link rel="stylesheet" href="./stylesheetdonor.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+	</head>
+<body>
+
+	<!-- Navigation bar starts-->
+	<div class="navbar">
+		<img class="logo" src="https://i.ibb.co/KsNxgXK/Logos-Thousands-of-Handcrafted-Logos-to-Customise-Make-Your-Own-Google-Chrome-17-02-2021-13-21-31-4.png"> 
+		<h1 style="color: white; font-size:300% ; margin-top: 1% ;margin-left: 11%; margin-right: auto;">
+		RedHope </h1>
+		<a href="./blaze.html"><h3 class="navh3">Home</h3></a>
+		<a href="./blaze_donor_form.html"><h3 class="navh3">Donor</h3></a>
+		<a href="./search.html"><h3 class="navh3">Recipient</h3></a>
+		<a href="./information.html"><h3 class="navh3">Information</h3></a>
+		<a href="./feedback.html"><h3 class="navh3">Feedback</h3></a>  
+		<a href="./member.html"><h3 class="navh3">About us</h3></a>
+	</div>
+	
+	<img class="main" src="https://image.freepik.com/free-vector/give-blood-background_1057-1029.jpg">
+	<pre id="quote">
+		SAVE A LIFE
+
+		DONATE BLOOD
+
+		INSPIRE OTHERS 
+		 
+		TO DONATE
+	</pre>
+	
+	<div class="bg">
+		<a href="./schedules.html" class="schedulebutton">Upcoming Camp Schedules</a>
+		<br><br><br>
+		
+		
+		
+		<form action="donor_form.php" method="post" style="margin: 50px">
+			<div class="container">
+				<h1 id="heading">DONOR</h1>
+				<br>
+				<label><b>Name</b></label>
+				<br><br>
+				<input id="name" type="text" name="name" placeholder="Enter your Name" required>
+				<br> 
+				<label><b>Blood Group</b></label>
+				<br><br>
+				<select name="group" id="bloodgroup">
+					<option value="A+">A+</option>
+					<option value="A-">A-</option>
+					<option value="B+">B+</option>
+					<option value="B-">B-</option>
+					<option value="O+">O+</option>
+					<option value="O-">O-</option>
+					<option value="AB+">AB+</option>
+					<option value="AB-">AB-</option>
+				</select>
+				<br><br>
+				<label><b>Gender</b></label>
+				<br>
+				<input type="radio" id="male" name="gender" value="male">
+  				<label for="male">Male</label><br>
+  				<input type="radio" id="female" name="gender" value="female">
+  				<label for="female">Female</label><br>
+  				<input type="radio" id="other" name="gender" value="other">
+ 				<label for="other">Other</label>
+ 				<br><br>
+				<label><b>Age</b></label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+				<label><b>Mobile No</b></label><br><br>
+				<input id = "age" type="number" name="mobile" placeholder="Age" required>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				<input id="Mobile number" type="number" placeholder="Mobile Number" required>
+				<br>
+				<label><b>E-mail</b></label><br>
+				<input id="email" type="email" placeholder="Enter you E-mail id" required>
+				<br>
+				<label><b>Any Ailments</b></label>
+				<br>
+				<input type="radio" name="Ailments" value="yes">
+				<label for="yes">YES</label><br>
+				<input type="radio" name="Ailments" value="no">
+				<label for="no">NO</label><br><br>
+				<label><b>If yes then type below</b></label>
+				<br><br>
+				<textarea id="ifany" name="ifyesthentype" rows="5" cols="70" placeholder="Details of your ailments"></textarea><br><br>
+				<label><b>Address</b></label><br>
+				<input id="adress" type="text" placeholder="Address">
+				<br>
+				
+				<label><b>Blood Bank</b></label>
+				<br><br>
+				<select name="banks" id="bankname">
+					<option value="b1">"Blood Bank, A.I.I.M.S. Ansari Nagar, Ring Road, New Delhi-110029)"</option>
+					<option value="b1">"Blood Bank, Safdarjang Hospital (Ring Road, New Delhi-110029)"</option>
+					<option value="b1">"Blood Bank, Smt. Sucheta Kriplani Hospital (Connaught Place, New Delhi-110001)"</option>
+					<option value="b1">"Blood Bank, C.N. , A.I.I.M.S. Ansari Nagar, Ring Road, New Delhi-110029)"</option>
+					<option value="b1">"Blood Bank, Northern Railway Centre Hospital (Basant Lane, New Delhi)"</option>
+					<option value="b1">"Blood Bank, E.S.I. Hospital (New Delhi-110015)"</option>
+					<option value="b1">"Blood Bank, L.N.J.P. Hospital (New Delhi-110002)"</option>
+					<option value="b1">"Blood Bank, D.D.U. Hospital (Hari Nagar, New Delhi-110069)"</option>
+					<option value="b1">"Blood Bank, G.T.B. Hospital (Shahdara, Delhi-110095)"</option>
+					<option value="b1">"Blood Bank, G.B. Pant Hospital (New Delhi-110002)"</option>
+				</select>
+				<br><br>
+				<button type="submit" class="button">Register</button>
+			</div>
+		</form>
+		
+	</div>
+	<footer>
+    
+        <p class="footer" >    Find us :   &nbspHauz Khaz,   &nbsp NEW DELHI       &nbsp   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp 
+           <br> Contact us :  &nbsp  &nbsp 7011362775     &nbsp  &nbsp     &nbsp  &nbsp  &nbsp  &nbsp
+        <br>    Mail us : muskanthakur26a@gmail.com     &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp   </p>
+        
+    </footer>
+</body>
+</html>

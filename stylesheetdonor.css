@@ -1,0 +1,180 @@
+body{
+	color : black ;
+	background-color: rgb(245,133,133);
+}
+ body,
+ html {
+     height: 100%;
+     margin bottom: 50px;
+ }
+ body {
+	font-family: montserrat;
+	 
+	}
+	.logo{  
+		position: absolute;
+		left: 4%;
+		top: 5px;
+		z-index: 1;
+	  height: 70px;
+	  width: 70px;
+	}
+	.navbar{
+		background-color:rgb(247, 19, 68);
+		display: flex;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0px;
+		overflow: hidden;
+		z-index: 1;
+		margin: 0;
+		padding: 0;
+		height: 80px;
+		width: 100%;
+		bottom: 0;
+	   
+		border-radius: 15px;
+		font-family: 'Rajdhani', sans-serif;
+	}
+	.bg
+	{
+		margin-top: 300px;
+		margin-left: 150px;
+	}
+	
+	.navbar a{
+	   color: white;
+   margin-inline: 1%;
+   text-decoration: none;
+ }
+ .navbar h3:hover{
+   box-shadow: 0 0 10px #fff;
+   border-radius: 8px;
+   enable-background: 0px;
+   height:25px;
+   transition: 50ms;
+   margin-top: 19px;
+   margin-right: 10px;
+ }
+.container{
+	
+	 font-size: 25;
+     border: 3px solid #f1f1f1;
+     border-radius: 5px;
+     box-shadow: 0 0 9px 4px black;
+     margin-left: 100px;
+     margin-right: 300px;
+     
+   	padding: 16px;
+ 	background-color: rgb(60%,40%,40%);
+ }
+  form #heading {
+  	font-family: garamond,serif;
+    text-align: center;
+    white-space: nowrap;
+ }
+ button {
+     background-color: #660000;
+     color: white;
+     padding: 12px 18px;
+     margin: 8px 10px 8px 10px;
+     border: none;
+     cursor: pointer;
+     font-size: large;
+     width: 95%;
+     align-self: center;
+ }
+  button:hover {
+     opacity: 0.8;
+     background-color: green;
+ }
+ .schedulebutton{
+  margin-left: 25%;
+    background-color: #660000;
+    color: white;
+    font-size: 40;
+    border:2px solid black;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px; 
+    width:500px;
+    height:60px;
+    text-align: center;
+}
+ .main
+   {
+       float:left;
+	    height:700px;
+ 	    width:650px;
+	    border: 2px solid black;
+    border-radius: 0;
+    box-shadow: 0 0 10px 4px black;
+    margin-left: 60px;
+    margin-top: 50px;
+   }
+ 
+ input[type="text"],input[type="number"],input[type="email"]{
+ 	width: 90%;
+  	padding: 15px;
+ 	margin: 5px 0 22px 0;
+  	border-radius: 3px; 
+  	background: #ffcccc;
+ }
+ input[type="number"]{
+  width: 60%;
+    padding: 15px;
+  margin: 5px 0 22px 0;
+    border-radius: 3px; 
+    background: #ffcccc;
+
+ }
+#age{
+	width: 15%;
+	padding: 15px;
+ 	margin: 5px 0 22px 0;
+  	border-radius: 3px;
+  	background: #ffcccc;
+}
+input[type="radio"]{
+	font-size: 12;
+}
+#ifany{
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px; 
+	background: #ffcccc;
+  width:90%;
+}
+#bloodgroup{
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px; 
+	background: #ffcccc;
+  height:50px;
+  width:10%;
+}
+#bankname{
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px; 
+	background: #ffcccc;
+  width:90%;
+  height:50px;
+}
+#quote{
+	font-family: georgia,serif;
+	font-size: 40;
+  margin-top: 200px;
+	margin-left: 600px;
+	text-align: center;
+}
+.footer
+   {
+    padding: 30px;
+    margin-inline: 20px;
+    background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
+    display:inline-block;
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    width: 90%;
+    border-radius: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}

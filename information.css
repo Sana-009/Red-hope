@@ -1,0 +1,91 @@
+body{
+	color : black ;
+	background-color: rgb(245,133,133);
+}
+body {
+	font-family: montserrat;
+	 
+	}
+	.logo{  
+		position: absolute;
+		left: 4%;
+		top: 5px;
+		z-index: 1;
+	  height: 70px;
+	  width: 70px;
+	}
+	.para1
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.navbar{
+		background-color:rgb(247, 19, 68);
+		display: flex;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0px;
+		overflow: hidden;
+		z-index: 1;
+		margin: 0;
+		padding: 0;
+		height: 80px;
+		width: 100%;
+		bottom: 0;
+	   
+		border-radius: 15px;
+		font-family: 'Rajdhani', sans-serif;
+	}
+	.footer
+   {
+    padding: 30px;
+    margin-inline: 20px;
+    
+    background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
+    display:inline-block;
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+	.navbar a{
+	   color: white;
+   margin-inline: 1%;
+   text-decoration: none;
+ }
+ .navbar h3:hover{
+   box-shadow: 0 0 10px #fff;
+   border-radius: 8px;
+   enable-background: 0px;
+   height:25px;
+   transition: 50ms;
+   margin-top: 19px;
+   margin-right: 10px;
+ }
+ .m{
+	 margin-left: 30%;
+ }
+ #image2{
+ 	display: inline;
+ 	margin-left: 25%;
+ 	height:70%;
+ 	width:50%;
+ 	display:flex;
+ 	border: 2px solid black;
+    border-radius: 0;
+    box-shadow: 0 0 10px 4px black;
+    
+ }
+ #image1{
+ 	display: inline;
+ 	margin-left: 30%;
+ 	height:60%;
+ 	width:40%;
+ 	display:flex;
+ 	border: 2px solid black;
+    border-radius: 0;
+    box-shadow: 0 0 10px 4px black;
+ }
